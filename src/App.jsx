@@ -5,6 +5,7 @@ import ServicioAutomotor from './Components/ServicioAutomotor'
 import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import ServicioInmobiliario from './Components/ServicioInmobiliario'
+import Contacto from './Components/Contacto'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <VentajasGestoria />
       <ServicioAutomotor />
       <ServicioInmobiliario/>
+      <Contacto/>
       <Footer />
     </>
   )

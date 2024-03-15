@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div className="mx-auto">Desarrollado por <a className="italic" href="https://www.linkedin.com/in/alvarezfelipe/">Felipe Alvarez</a></div >
+        <div className="mx-auto mt-4">Desarrollado por <a className="italic font-semibold" href="https://www.linkedin.com/in/alvarezfelipe/">Felipe Alvarez</a></div >
     )
 }
 
