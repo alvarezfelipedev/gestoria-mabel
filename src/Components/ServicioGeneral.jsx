@@ -12,6 +12,9 @@ function ServicioGeneral() {
         {
           title: "Pensión",
         },
+        {
+          title: "Y otros trámites generales",
+        }
       ];
     
       return (
