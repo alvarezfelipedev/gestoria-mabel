@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import "../StyleComponents/navbar.css"
 
 function Navbar() {
     const [state, setState] = useState(false)
@@ -31,10 +32,16 @@ function Navbar() {
                             <a href="#ventajas">Ventajas</a>
                         </li>
                         <li>
+                            <a href="#general">General</a>
+                        </li>
+                        <li>
                             <a href="#automotor">Automotor</a>
                         </li>
                         <li>
-                            <a href="#inmobiliaria">Inmobiliaria</a>
+                            <a href="#inmobiliario">Inmobiliaria</a>
+                        </li>
+                        <li>
+                            <a href="#sobre-mi">Sobre mi</a>
                         </li>
                         <li>
                             <a href="#contacto">Contacto</a>
@@ -42,6 +49,10 @@ function Navbar() {
                     </ul>
                 </div>
             </div>
+            <a href="https://api.whatsapp.com/send?phone=541163684133&text=Hola%20Mabel!%20Quer%C3%ADa%20hacerte%20la%20siguiente%20consulta."
+                className="float" target="_blank">
+                <i className="fa fa-whatsapp my-float"></i>
+            </a>
         </nav>
     )
 }

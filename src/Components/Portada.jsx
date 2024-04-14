@@ -26,7 +26,7 @@ function Portada() {
 
     return (
         <section>
-            <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 md:px-8 xl:flex">
+            <div className="max-w-screen-xl mx-auto px-4 md:py-28 gap-12 text-gray-600 md:px-8 py-12 xl:flex">
                 <div className="space-y-5 max-w-2xl mx-auto text-center xl:text-left">
                     <div className="flex flex-wrap items-center justify-center gap-6 xl:justify-start">
                         {
@@ -39,10 +39,10 @@ function Portada() {
                         }
                     </div>
                     <h1 className="text-4xl text-gray-800 font-extrabold mx-auto md:text-5xl">
-                        Gestoria Automotor y Asesora Inmobiliaria
+                        Gestoría Automotor y Asesora Inmobiliaria
                     </h1>
                     <p className="max-w-xl mx-auto xl:mx-0">
-                        Brindo soluciones a medida para tus necesidades, con asesoramiento experto, eficiencia y transparencia. Agilidad en los trámites, seguimiento constante y atención personalizada.
+                        Brindo soluciones a medida para tus necesidades, con asesoramiento experto, eficiencia y transparencia. Agilidad en los trámites, seguimiento constante y atención personalizada. <strong className="font-semibold">Asesorias online y presenciales!</strong>
                     </p>
                     <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0 xl:justify-start">
                         <a href="#automotor" className="flex items-center justify-center gap-x-2 py-2 px-4 text-white font-medium bg-gray-800 duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-lg md:inline-flex">

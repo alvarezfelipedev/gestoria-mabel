@@ -37,6 +37,7 @@ function Contacto() {
         </svg>
       ),
       contact: "+54 11 6368-4133",
+      link: "https://api.whatsapp.com/send?phone=541163684133&text=Hola%20Mabel!%20Quer%C3%ADa%20hacerte%20la%20siguiente%20consulta."
     },
     {
       icon: (
@@ -60,7 +61,8 @@ function Contacto() {
           />
         </svg>
       ),
-      contact: "San Justo, La Matanza, Buenos Aires.",
+      contact: "San Justo, Buenos Aires.",
+      link: "https://maps.app.goo.gl/HiFP8bgZZP9vwS4R8"
     },
   ];
 
@@ -71,11 +73,11 @@ function Contacto() {
           <div className="max-w-lg space-y-3">
             <h3 className="text-indigo-600 font-semibold">Contacto</h3>
             <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              ¿Cómo podemos ayudarte?
+              ¿Cómo puedo ayudarte?
             </p>
             <p>
-              ¡Estamos aquí para ayudarte y responder cualquier pregunta que
-              puedas tener! Esperamos con interés escucharte. Por favor,
+              ¡Estoy aquí para ayudarte y responder cualquier pregunta que
+              puedas tener! Espero con interés escucharte. Por favor,
               completa el formulario o utiliza la información de contacto que
               aparece a continuación.
             </p>
@@ -84,7 +86,9 @@ function Contacto() {
                 {contactMethods.map((item, idx) => (
                   <li key={idx} className="flex items-center gap-x-3">
                     <div className="flex-none text-gray-400">{item.icon}</div>
-                    <p>{item.contact}</p>
+                    <a target="_blank" href={item.link}>
+                      <p>{item.contact}</p>
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -92,7 +96,7 @@ function Contacto() {
           </div>
           <div className="flex-1 mt-12 sm:max-w-lg lg:max-w-md">
             <form
-              action="https://formsubmit.co/n.felialvarez@gmail.com"
+              action="https://formsubmit.co/mabelb.gestion@gmail.com"
               method="POST"
               className="space-y-5"
             >
@@ -132,7 +136,7 @@ function Contacto() {
               <input
                 type="hidden"
                 name="_next"
-                value="http://localhost:5173/"
+                value="https://www.bonifaciogestiones.com.ar/"
               />
               <input type="hidden" name="_captcha" value="false" />
             </form>

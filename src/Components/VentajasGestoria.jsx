@@ -39,8 +39,9 @@ function VentajasGestoria() {
         <section id="ventajas" className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
                 <div className="max-w-2xl mx-auto">
+                    <h3 className="text-indigo-600 font-semibold">Ventajas</h3>
                     <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        Ventajas de nuestra Gestoría
+                        Beneficios destacados
                     </h3>
                     <p className="mt-3">
                         Si estás buscando un gestor automotor de confianza, no dudes en contactarme. Te ofreceré un servicio personalizado y eficiente, con la garantía de un profesional matriculado.

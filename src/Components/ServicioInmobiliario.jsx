@@ -22,7 +22,7 @@ function ServicioInmobiliario() {
         <div className="mt-12">
           <ul className="grid gap-y-8 gap-x-8 sm:grid-cols-2 lg:grid-cols-2 mx-auto">
             {features.map((item, idx) => (
-              <li key={idx} className="flex">
+              <li key={idx} className="lg:flex lg:mx-16 lg:items-center justify-between">
                 <div className="flex items-center gap-x-4">
                   <div className="flex-none w-12 h-12 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center">
                     <svg
@@ -40,7 +40,7 @@ function ServicioInmobiliario() {
                       />
                     </svg>
                   </div>
-                  <h4 className="my-2 text-lg text-gray-800 font-semibold">
+                  <h4 className="my-2 text-lg text-gray-800 font-semibold lg:text-center">
                     {item.title}
                   </h4>
                 </div>

@@ -6,6 +6,8 @@ import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import ServicioInmobiliario from './Components/ServicioInmobiliario'
 import Contacto from './Components/Contacto'
+import SobreMi from './Components/SobreMi'
+import ServicioGeneral from './Components/ServicioGeneral'
 
 
 function App() {
@@ -15,8 +17,10 @@ function App() {
       <Navbar />
       <Portada />
       <VentajasGestoria />
+      <ServicioGeneral/>
       <ServicioAutomotor />
       <ServicioInmobiliario/>
+      <SobreMi/>
       <Contacto/>
       <Footer />
     </>
