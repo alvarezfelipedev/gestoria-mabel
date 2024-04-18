@@ -61,8 +61,7 @@ function Portada() {
                 </div>
                 <div className="flex-1 max-w-xl mx-auto mt-14 xl:mt-0">
                     <div className="relative">
-                        <img src="/portada.svg" className="rounded-lg" alt="" />
-
+                        <img src="/portada.svg" className="rounded-lg" alt="Dibujo de autos violetas circulando por la calle frente a un edificio." />
                     </div>
                 </div>
             </div>

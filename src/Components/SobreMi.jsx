@@ -3,8 +3,9 @@ function SobreMi() {
         <section id="sobre-mi" className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
                 <div className="max-w-2xl mx-auto">
+                    <h3 className="text-indigo-600 font-semibold">Sobre Mi</h3>
                     <h3 className="text-gray-800 text-2xl font-semibold sm:text-3xl">
-                        Breve descripción acerca de mí.
+                        Persona a cargo de la Gestoría
                     </h3>
                 </div>
                 <div className="mt-12">
@@ -14,10 +15,15 @@ function SobreMi() {
                                 Mi nombre es Mabel y soy gestora Automotor recibida con título
                                 vigente bajo el DNRPA con más de 5 años en el rubro. Además, soy
                                 Martillera Pública. Esta combinación de habilidades y
-                                conocimientos me permite ofrecer un servicio integral como Asesora
-                                Inmobiliaria, brindando un enfoque completo y experto a mis
-                                clientes en todas las facetas del mercado inmobiliario.
+                                conocimientos me permite ofrecer un servicio integral como
+                                Asesora Inmobiliaria, brindando un enfoque completo y experto a
+                                mis clientes en todas las facetas del mercado inmobiliario.
                             </p>
+                        </div>
+                        <div className="flex-1 lg:max-w-md lg:mt-0 mt-14 xl:mt-0 flex justify-center">
+                            <div className="relative w-48">
+                                <img src="/perfil.png" alt="Foto del rostro de Mabel, con un fondo violeta." />
+                            </div>
                         </div>
                     </div>
                 </div>
