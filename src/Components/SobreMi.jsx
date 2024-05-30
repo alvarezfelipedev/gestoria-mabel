@@ -9,7 +9,7 @@ function SobreMi() {
                     </h3>
                 </div>
                 <div className="mt-12">
-                    <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
+                    <div className="max-w-lg mx-auto gap-12 justify-center lg:flex lg:max-w-none">
                         <div className="max-w-lg space-y-3 text-gray-600">
                             <p>
                                 Mi nombre es Mabel y soy gestora Automotor recibida con título
@@ -19,11 +19,6 @@ function SobreMi() {
                                 Asesora Inmobiliaria, brindando un enfoque completo y experto a
                                 mis clientes en todas las facetas del mercado inmobiliario.
                             </p>
-                        </div>
-                        <div className="flex-1 lg:max-w-md lg:mt-0 mt-14 xl:mt-0 flex justify-center">
-                            <div className="relative w-48">
-                                <img src="/perfil.png" alt="Foto del rostro de Mabel, con un fondo violeta." />
-                            </div>
                         </div>
                     </div>
                 </div>
